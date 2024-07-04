@@ -1,0 +1,207 @@
+/* body css code starts*/
+body {
+    padding-top: 64px;
+}
+div {
+    background-color: #fafafa;  
+}
+
+
+/* body css codes ends*/
+
+/*navbar css codes starts*/
+.navbar .form-control {
+    background-image: url('assets/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+}
+
+.profile-picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+    width: 24px;
+    height: 24px;
+    background-color: gray; /* İkonların yerini göstermek için */
+    margin: 0 5px;
+  
+}
+
+
+::placeholder {
+    background-image: url('assets/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+}
+
+.navbar {
+    border-bottom: 1px solid #ddd; /* Alt kısma 1px kalınlığında gri bir border eklemek */
+    border-radius: 0; /* Köşeleri yuvarlamamak için 0 olarak ayarlandı, isteğe bağlı olarak değer verebilirsiniz */
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+}
+.bg-instagram {
+    background-color: #fafafa;
+}
+
+
+/* navbar styles */
+
+
+
+/* story css styles  */
+.card-body {
+    padding: 20px;
+}
+
+.story-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Satır taşması durumunda yeni satıra geçmesini sağlar */
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+}
+
+.story {
+    text-align: center;
+    margin: 10px;
+    flex: 1 0 30%; /* Her bir hikaye div'inin genişliğini belirler */
+    max-width: 80px; /* Maksimum genişlik */
+}
+
+.story img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid red; 
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: black;
+    text-shadow: #555;
+}
+/* story css styles  */
+
+/*profil part top of the carousel*/
+.profile-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d3d3d3; /* Light Gray */
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+}   
+
+.profile-photo img {
+    width: 40px; /* Profil fotoğrafının genişliğini ayarlayın */
+    height: 40px; /* Profil fotoğrafının yüksekliğini ayarlayın */
+    border-radius: 50%; /* Fotoğrafı yuvarlak yapmak için */
+    object-fit: cover; /* Fotoğrafın konteynerin tamamını kaplaması için */
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.profile-name {
+    margin-left: 10px;
+}
+
+.profile-icon {
+    margin-left: auto;
+    padding: 5px;
+}
+/*profil part top off the carousel */ 
+
+/* carousel part css styles  */
+.carousel-item img {
+    max-height: 320px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  
+  .carousel-caption .icon-class-1,
+  .carousel-caption .icon-class-2,
+  .carousel-caption .icon-class-3,
+  .carousel-caption .icon-class-4 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+
+/* carousel part css styles  */
+
+/*comments part starts*/
+.comments {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comment-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.left-icons, .right-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.comment-icons .right-icons {
+    margin-left: auto;
+}
+
+.comment-icons i {
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #555;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.likes {
+    font-size: 1em;
+    color: #555;
+}
+
+.comment-content p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.comment-content p strong {
+    font-weight: bold;
+}
+/*  comments part starts*/
